@@ -1,0 +1,213 @@
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: white;
+}
+li a{
+    float: right;
+    display: block;
+    color: black;
+    padding: 10px 15px;
+    text-align: right;
+    text-decoration: none;
+    min-width: 60px;
+
+}
+li a:hover{
+    background-color: rgb(135, 150, 145);
+
+}
+
+h3{
+
+    border:0px solid;
+   border-radius: 10px;
+   
+    box-shadow: 5px 5px 5px #666666;
+    /*horizontal(px)
+    vertical(px)
+    blur(px)
+    color(name,rgb,hex)
+    */ 
+}
+.circular_image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: rgb(189, 189, 209);
+    /* commented for demo
+    float: left;
+    margin-left: 125px;
+    margin-top: 20px;
+    */
+    
+    /*for demo*/
+    display:inline-block;
+    vertical-align:middle;
+    
+  }
+  .circular_image{
+    float: left;
+  }
+  
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: rgb(26, 25, 25);
+  font-family: Arial;
+ 
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(16, 113, 241);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px gray;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color:rgb(7, 7, 7);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.site-footer{
+  background-color: #5e5c5c;
+	text-align: center;
+	margin: 0px 0;
+	padding: 10px 0;
+}
+
+#social-wrapper {
+	text-align:right ;
+}
+
+/*Social Media Icons*/
+.social-wrapper {
+	text-align: right;
+}
+
+.social-wrapper ul li {
+	display: inline;
+	margin: 0 5px;
+}
+
+
+.facebook-icon,
+.Email-icon,
+.youtube-icon{
+	margin-top: .625em;
+	width: 40px;
+	height: 40px;
+	opacity: .6;
+	filter: alpha(opacity=60); /* For IE8 and earlier */
+  border-radius: 25px;
+  
+}
+
+
+
+.footer-nav p {
+	text-align: center;
+  background-color: #5e5c5c;
+}
+/* Set the size of the div element that contains the map */
+
+h2{
+  float: center;
+  font-weight: bold;
+
+}
+
+
+h2{
+  font-weight: bold;
+}
+#img1{
+  float: left;
+}
+#img2{
+  float: right;
+}
+
+
+
+#map {
+  height: 600px;
+  /* The height is 600 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+.legend {
+  z-index: 1;
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  width: 170px;
+  height: 100px;
+  background:white;
+  }
+
+
+
+
+
+
+
+
+
